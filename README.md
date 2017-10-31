@@ -1,1 +1,1 @@
-# react-starter
+# react-project-starter
