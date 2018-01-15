@@ -4,14 +4,14 @@
  */
 import React from 'react'
 
-import './index.scss'
+import styles from './index.scss';
 
 class Home extends React.Component {
 
     render () {
         return (
-            <div className="page">
-                <h1>welcome home</h1>
+            <div className={styles.page}>
+                <h1 className={styles.title}>welcome home</h1>
             </div>
         )
     }
