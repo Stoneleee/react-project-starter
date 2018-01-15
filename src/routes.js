@@ -4,12 +4,12 @@
  */
 import React from 'react';
 import { Route } from 'react-router-dom';
-import Home from './home';
+import App from './App';
 
 export default () => {
     return (
         <div>
-            <Route exact path="/" component={Home} />
+            <Route exact path="/" component={App} />
         </div>
     );
 }
