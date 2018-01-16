@@ -1,20 +1,22 @@
-/**
- * Created by Stoneleee on 2017/10/20.
- * Mail to weflylee@163.com
- */
-import React from 'react'
+import React, { Component } from 'react';
+import logo from './logo.svg';
+import styles from './App.css';
 
-import styles from './index.css'
-
-class Home extends React.Component {
-
-    render () {
-        return (
-            <div className={styles.page}>
-                <h1 className={styles.title}>welcome home</h1>
-            </div>
-        )
-    }
+class App extends Component {
+  render() {
+    return (
+      <div className={styles.App}>
+        <header className={styles.header}>
+          <img src={logo} className={styles.logo} alt="logo" />
+          <h1 className={styles.title}>Welcome to React</h1>
+        </header>
+        <p className={styles.intro}>
+          To get started, edit <code>src/App.js</code> and save to reload.
+        </p>
+        <p>support css modules</p>
+      </div>
+    );
+  }
 }
 
-export default Home
+export default App;
